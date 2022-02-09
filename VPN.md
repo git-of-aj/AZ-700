@@ -14,3 +14,20 @@ Typical route-based gateway scenarios include point-to-site, inter-virtual netwo
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/vpn-gateway-config.png)
 
 SKU -- AS PER THE NO. OF CONNECTIONS YOU NEED 
+
+## gateway
+- the gateway subnet contains the IP addresses that the virtual network gateway VMs and services use. 
+- Never deploy anything else (for example, additional VMs) to the gateway subnet. The gateway subnet must be named GatewaySubnet to work properly. Naming the gateway subnet GatewaySubnet tells Azure know that this is the subnet to deploy the virtual network gateway VMs and services to.
+- planning your gateway subnet size, refer to the documentation for the configuration that you are planning to create. For example, the ExpressRoute/VPN Gateway coexist configuration requires a larger gateway subnet than most other configurations. Additionally, you may want to make sure your gateway subnet contains enough IP addresses to accommodate possible future additional configurations. While you can create a gateway subnet as small as /29, we recommend that you create a gateway subnet of /27 or larger (/27, /26 etc.) if you have the available address space to do so. This will accommodate most configurations.
+- The local network gateway typically refers to the on-premises location. use FQDN 
+
+## Trouble shoot isues
+GatewayDiagnosticLog - Contains diagnostic logs for gateway configuration events, primary changes, and maintenance events.
+
+TunnelDiagnosticLog - Contains tunnel state change events. Tunnel connect/disconnect events have a summarized reason for the state change if applicable.
+
+RouteDiagnosticLog - Logs changes to static routes and BGP events that occur on the gateway.
+
+IKEDiagnosticLog - Logs IKE control messages and events on the gateway.
+
+P2SDiagnosticLog - Logs point-to-site control messages and events on the gateway.
