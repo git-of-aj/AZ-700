@@ -112,3 +112,14 @@ So check and then send --
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/nat-flow-direction-inbound-outbound-70bb1787.png)
 
 You have snat or port NAT (pnat) 
+
+## Limitation if NAT
+
+- no ipv6 support
+- NAT is compatible with the following standard SKU (not basic) resources:
+
+✓ Load balancer
+
+✓  Public IP address
+
+✓  Public IP prefix
