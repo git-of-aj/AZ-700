@@ -37,6 +37,8 @@ The dynamic IP address is allocated when you create or start a VM. The IP addres
 
 Static IP doesn't change like for AD domain  controllers DNS servers 
 
+*Standard SKU uses STATIC IP ONLY*
+
 ## AZURE DNS
 
 **Considerations** - 
@@ -79,3 +81,18 @@ DNS forwarding also enables DNS resolution between virtual networks and allows y
 `name resolution for on prem + azure`
 .
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/external-dns-fwd-7c81c29f.png)
+
+
+### Vnet Peering 
+
+When you Allow Gateway Transit the virtual network can communicate to resources outside the peering. For example, the subnet gateway could:
+
+✓ Use a site-to-site VPN to connect to an on-premises network.
+✓ Use a VNet-to-VNet connection to another virtual network.
+✓ Use a point-to-site VPN to connect to a client
+
+In these scenarios, gateway transit allows peered virtual networks to share the gateway and get access to resources. This means you do not need to deploy a VPN gateway in the peer virtual network.
+
+The benefits of using a hub and spoke configuration include cost savings, overcoming subscription limits, and workload isolation.
+
+[MS LEARN ABOUT UDR](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-virtual-networks/9-implement-virtual-network-traffic-routing)
