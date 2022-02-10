@@ -46,4 +46,21 @@ P2SDiagnosticLog - Logs point-to-site control messages and events on the gateway
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/point-site-diagram.png)
 
-[Ms Learn](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/5-connect-devices-to-networks-point-to-site-vpn-connections)
+VARIOUS AUTHENTICATION METHODS ALSO AVAILABLE FOR P2S VPN 
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/p2s-authenticate-with-ad.png)
+
+[Ms Learn for P2S VPN](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/5-connect-devices-to-networks-point-to-site-vpn-connections)
+
+## Virtual WAN
+> organizations to operate across regional and national boundaries, and across time zones.enable their employees, partners, and customers to connect to the resources they need from wherever they are
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/azure-wan-regions.png)
+
+- You can use a secured virtual hub to filter traffic between virtual networks (V2V), virtual networks and branch offices (B2V) and traffic to the Internet (B2I/V2I) by using a firewall
+- These secured virtual hub provides automated routing. There's no need to configure your own UDRs
+- Azure Virtual WAN is a managed service, it creates the appropriate subnets in the virtual hub for the different gateways/services (for example, VPN gateways, ExpressRoute gateways, 
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/concepts-association.png)
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/concepts-propagation.png)
