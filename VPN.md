@@ -1,6 +1,16 @@
+## hybrid sceneries
+> You are migrating to cloud. This network would be used to connect their growing number of distributed offices. It would also address the work from home initiatives
+
+## VPN
+[MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/2-design-implement-vpn-gateway)
+
+## S2S VPN 
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/site-site-vpn-architecture.png)
+
 - For example, a P2S connection requires a RouteBased VPN type. A VPN type can also depend on the hardware that you are using. S2S configurations require a VPN device. Some VPN devices only support a certain VPN type.
 - Once a virtual network gateway has been created, you can't change the VPN type. You must delete the virtual network gateway and create a new one.
--
+
 -  **Policy Based** - PolicyBased VPNs can only be used on the Basic gateway SKU. This VPN type is not compatible with other gateway SKUs.
 
 You can have only 1 tunnel when using a PolicyBased VPN.
@@ -31,3 +41,9 @@ RouteDiagnosticLog - Logs changes to static routes and BGP events that occur on 
 IKEDiagnosticLog - Logs IKE control messages and events on the gateway.
 
 P2SDiagnosticLog - Logs point-to-site control messages and events on the gateway.
+
+## P2S VPN CONNECTION
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/point-site-diagram.png)
+
+[Ms Learn](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/5-connect-devices-to-networks-point-to-site-vpn-connections)
