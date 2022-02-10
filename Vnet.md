@@ -36,3 +36,28 @@ Public IP addresses are allocated from a range that's unique to each region in e
 The dynamic IP address is allocated when you create or start a VM. The IP address is released when you stop or delete the VM. In each Azure region, public IP addresses are assigned from a unique pool of addresses. The default allocation method is dynamic.
 
 Static IP doesn't change like for AD domain  controllers DNS servers 
+
+## AZURE DNS
+
+**Considerations** - 
+- The name of the zone must be unique within the resource group, and the zone must not exist already.
+- The same zone name can be reused in a different resource group or a different Azure subscription.
+- Where multiple zones share the same name, each instance is assigned different name server addresses.
+- Root/Parent domain is registered at the registrar and pointed to Azure NS.
+- Child domains are registered in AzureDNS directly.
+ 
+📚 Note
+
+You do not have to own a domain name to create a DNS zone with that domain name in Azure DNS. However, you do need to own the domain to configure the domain.
+
+Each registrar has their own DNS management tools to change the name server records for a domain. In the registrar’s DNS management page, edit the NS records and replace the NS records with the ones Azure DNS created.
+
+## Private DNS 
+
+> Windows Server Active Directory domains, resolve DNS names between virtual networks. To cover these scenarios, Azure provides the ability for you to use your own DNS servers.
+
+Doubt -- Access to the recursive resolvers in Azure is provided via the virtual IP 168.63.129.16.
+
+DNS forwarding also enables DNS resolution between virtual networks and allows your on-premises machines to resolve Azure-provided host names.
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/inter-vnet-dns-812cc9a7.png)
