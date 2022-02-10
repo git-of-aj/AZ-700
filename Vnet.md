@@ -57,7 +57,25 @@ Each registrar has their own DNS management tools to change the name server reco
 > Windows Server Active Directory domains, resolve DNS names between virtual networks. To cover these scenarios, Azure provides the ability for you to use your own DNS servers.
 
 Doubt -- Access to the recursive resolvers in Azure is provided via the virtual IP 168.63.129.16.
+ It's important to recognize that it's the Azure Resource name that is registered, not the name of the guest OS on the VM.
+
+`Limitations of Internal DNS`
+
+✓ Can't resolve across different VNets.
+✓ Registers resource names, not guest OS names.
+✓ Does not allow manual record creation.
+
 
 DNS forwarding also enables DNS resolution between virtual networks and allows your on-premises machines to resolve Azure-provided host names.
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/inter-vnet-dns-812cc9a7.png)
+
+**Azure Internal DNS** -- Any VM created in the VNet is registered in the internal DNS zone and gets a DNS domain name like myVM.internal.cloudapp.net.
+
+### Azure Pvt DNS 
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/dns-zones-d964f066.png)
+
+`name resolution for on prem + azure`
+.
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/external-dns-fwd-7c81c29f.png)
