@@ -64,3 +64,11 @@ VARIOUS AUTHENTICATION METHODS ALSO AVAILABLE FOR P2S VPN
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/concepts-association.png)
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/concepts-propagation.png)
+
+## NVA
+
+One of the benefits of Azure Virtual WAN is the ability to support reliable connections from many different technologies, whether Microsoft based, such as ExpressRoute or a VPN Gateway, or from a networking partner, such as Barracuda CloudGen WAN, Cisco Cloud OnRamp for Multi-Cloud, and VMware SD-WAN. These types of devices are known as network virtual appliances (NVAs
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/nva-high-level-process.png)
+
+[Create NVA & learn more from MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/8-create-network-virtual-appliance-virtual-hub)
