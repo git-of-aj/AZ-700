@@ -96,3 +96,19 @@ In these scenarios, gateway transit allows peered virtual networks to share the 
 The benefits of using a hub and spoke configuration include cost savings, overcoming subscription limits, and workload isolation.
 
 [MS LEARN ABOUT UDR](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-virtual-networks/9-implement-virtual-network-traffic-routing)
+
+### Force tunneling - for extra security
+
+> You don't want any hacker or employee to send (important info) traffic to internet
+
+So check and then send -- 
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/forced-tunnel-ba8d30e6.png)
+
+### NAT
+- ONLY FOR OUTBOUND CONNECTION
+- You define the NAT configuration for each subnet within a VNet to enable outbound connectivity by specifying which NAT gateway resource to use. After NAT is configured, all UDP and TCP outbound flows from any virtual machine instance will use NAT for internet connectivity. No further configuration is necessary, and you don’t need to create any user-defined routes. NAT takes precedence over other outbound scenarios
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/nat-flow-direction-inbound-outbound-70bb1787.png)
+
+You have snat or port NAT (pnat) 
