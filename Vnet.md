@@ -47,6 +47,8 @@ Static IP doesn't change like for AD domain  controllers DNS servers
 - Where multiple zones share the same name, each instance is assigned different name server addresses.
 - Root/Parent domain is registered at the registrar and pointed to Azure NS.
 - Child domains are registered in AzureDNS directly.
+
+[Tutorial Azure DNS](https://docs.microsoft.com/en-us/azure/dns/dns-delegate-domain-azure-dns)
  
 📚 Note
 
