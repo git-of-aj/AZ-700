@@ -2,6 +2,12 @@
 
 [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-virtual-networks/2-explore-azure-virtual-networks)
 
+**Link local address**
+`Used for routing purpose` -- Link-local addresses are designed to be used for addressing on a single link for purposes such as automatic address configuration, neighbor discovery, or in the absence of routers. It also may be used to communicate with other nodes on the same link. A link-local address is automatically assigned.
+
+**Pvt IP ALLOCATION** 
+An `application gateway INTERAL LB` is useful for internal line-of-business applications that aren't exposed to the Internet like HR APP, PAYROLL ETC which requires TLS stickiness etc
+
 ## Public IP
 
 - Why Public IP?
