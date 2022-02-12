@@ -129,3 +129,5 @@ You have snat or port NAT (pnat)
 ## Azure Route Server
 Azure Route Server enables network appliances to exchange route information with Azure virtual networks dynamically. Configure your network appliances and Azure ExpressRoute and VPN gateways to automatically take the latest route information from Azure Route Server instead of manually talking to each network
 - uses dynamic routing --> BGP
+
+[TUTORIAL AZURE ROUTE SERVER](https://docs.microsoft.com/en-us/azure/route-server/quickstart-configure-route-server-portal)
