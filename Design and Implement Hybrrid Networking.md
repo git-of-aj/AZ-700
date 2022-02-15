@@ -12,6 +12,10 @@ Make Azure an extension of your existing network, connecting distributed workloa
 
 [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/2-design-implement-vpn-gateway)
 
+## Choose Generation and SKU of VPN
+Setting up a virtual network is free of charge. However, we do charge for the VPN gateway that connects to on-premises and other virtual networks in Azure. This charge is based on the amount of time that gateway is provisioned and available.
+[VPN PRICING](https://azure.microsoft.com/en-in/pricing/details/vpn-gateway/)
+
 ## S2S VPN 
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/site-site-vpn-architecture.png)
