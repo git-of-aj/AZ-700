@@ -1,7 +1,15 @@
-## hybrid sceneries
-> You are migrating to cloud. This network would be used to connect their growing number of distributed offices. It would also address the work from home initiatives
+## Why Use Hybrid neyworking ?
+> You are migrating to cloud. This network would be used to connect their growing number of distributed offices. It would also address the work from home initiatives so that  maximise your existing on-premises investments by relying on an effective hybrid and multicloud approach
+
+Make Azure an extension of your existing network, connecting distributed workloads and locations at a global scale.
+
+- Azure VPN Gateway
+- Azure ExpressRoute
+- Azure Virtual WAN
 
 ## VPN
+(Virtual Private network) -- Get Private Encrypeted connectivity 
+
 [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/2-design-implement-vpn-gateway)
 
 ## S2S VPN 
