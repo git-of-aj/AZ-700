@@ -18,6 +18,8 @@ Setting up a virtual network is free of charge. However, we do charge for the VP
 
 ## S2S VPN 
 
+> [Check MS learn](https://docs.microsoft.com/en-us/learn/modules/design-implement-hybrid-networking/4-connect-networks-site-to-site-vpn-connections)
+
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-implement-hybrid-networking/media/site-site-vpn-architecture.png)
 
 - For example, a P2S connection requires a RouteBased VPN type. A VPN type can also depend on the hardware that you are using. S2S configurations require a VPN device. Some VPN devices only support a certain VPN type.
