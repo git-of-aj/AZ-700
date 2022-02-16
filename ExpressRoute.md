@@ -23,3 +23,4 @@ one usecase could be run a corporate intranet application in Azure that authenti
 
 [MS Learn (covers in detail about ExpressRoute)](https://docs.microsoft.com/en-us/learn/modules/design-implement-azure-expressroute/2-explore)
 
+[ExpressRoute docs](https://docs.microsoft.com/en-us/azure/expressroute/)
