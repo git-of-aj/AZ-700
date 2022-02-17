@@ -70,6 +70,10 @@ HTTP(S) VERSUS NON-HTTP(S)
 
 ### Azure Traffic Manager 
 
+> Traffic Manager uses DNS to direct the client requests to the appropriate service endpoint based on a traffic-routing method
+
+Suppose you have global customer, you choose Azure LB THEN Cross Region data flow cost you 💰 money & latency to customer, hence traffic manager is a good choice
+
 [MS LEARN ](https://docs.microsoft.com/en-us/learn/modules/load-balancing-non-https-traffic-azure/5-explore-azure-traffic-manager)
 
 [Tutorial](https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile)
