@@ -12,8 +12,19 @@ across a group of backend computing resources or servers. Load balancing aims to
 Based on layer where they work 
 
 - `Layer 4` : 
+✓ Based on IP + Port
 
-- `Layer 7 ` : 7 load balancers that only accept HTTP(S) traffic. They are intended for web applications or other HTTP(S) endpoints. They include features such as SSL offload, web application firewall, path-based load balancing, and session affinity.
+✓ more suited for backend connections like b/w front-end and DB 
+
+- `Layer 7 ` :
+✓ Based on packet 
+
+✓ Layer 7 load balancer terminates the network traffic and reads the message within. It can make a load‑balancing decision based on the content of the message (the URL or cookie, for example)
+
+✓ instance, because a Layer 7 load balancer can determine what type of data (video, text, and so on) a client is requesting, you don’t have to duplicate the same data on all of the load-balanced servers
+
+ 7 load balancers that only accept HTTP(S) traffic. They are intended for web applications or other HTTP(S) endpoints. They include features such as SSL offload, web application firewall, path-based load balancing, and session affinity.
+
 
 Based on regions 
 
@@ -34,6 +45,8 @@ Azure provides various load balancing services that you can use to distribute yo
 - `Azure Application Gateway` - provides application delivery controller (ADC) as a service, offering various Layer 7 load-balancing capabilities. Use it to optimize web farm productivity by offloading CPU-intensive SSL termination to the gateway.
 
 - `Azure Front Door` - application delivery network that provides global load balancing and site acceleration service for web applications. It offers Layer 7 capabilities for your application like SSL offload, path-based routing, fast failover, caching, etc. to improve performance and high-availability of your applications
+
+> `Layer 7 LB use case` --> A user visits a high‑traffic website. Over the course of the user’s session, he or she might request static content such as images or video, dynamic content such as a news feed, and even transactional information such as order status. Layer 7 load balancing allows the load balancer to route a request based on information in the request itself, such as what kind of content is being requested
 
 Table of summary :
 
