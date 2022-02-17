@@ -60,7 +60,12 @@ HTTP(S) VERSUS NON-HTTP(S)
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/load-balancing-non-https-traffic-azure/media/load-balancing-decision-tree-3f132096.png).
 
+### Azure load balancer 
+[MS LEARN](https://docs.microsoft.com/en-us/learn/modules/load-balancing-non-https-traffic-azure/3-design-implement-azure-load-balancer-using-azure-portal)
+
 
 ### Azure Traffic Manager 
+
+[MS LEARN ](https://docs.microsoft.com/en-us/learn/modules/load-balancing-non-https-traffic-azure/5-explore-azure-traffic-manager)
 
 [Tutorial](https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile)
