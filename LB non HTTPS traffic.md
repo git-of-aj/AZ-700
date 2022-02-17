@@ -51,6 +51,8 @@ Azure provides various load balancing services that you can use to distribute yo
 Table of summary :
 
 HTTP(S) VERSUS NON-HTTP(S)
+![](https://www.cloudflare.com/img/learning/security/glossary/what-is-ssl/http-vs-https.svg)
+
 |Service|	Global/regional | 	Recommended traffic |
 |-------|--------------|-------------|
 | Azure Front Door |	Global	| HTTP(S) |
