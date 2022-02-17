@@ -59,3 +59,8 @@ HTTP(S) VERSUS NON-HTTP(S)
 |Azure Load Balancer|	Regional|	non-HTTP(S)|
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/load-balancing-non-https-traffic-azure/media/load-balancing-decision-tree-3f132096.png).
+
+
+### Azure Traffic Manager 
+
+[Tutorial](https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile)
