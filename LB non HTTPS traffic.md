@@ -15,6 +15,11 @@ Based on layer where they work
 
 - `Layer 7 ` : 
 
+Based on regions 
+
+- `Regional LB` : Regional load-balancing services distribute traffic within virtual networks across virtual machines (VMs) or zonal and zone-redundant service endpoints within a region. You can think of them as systems that load balance between VMs, containers, or clusters within a region in a virtual network.
+
+- `Global LB` : traffic across regional backends, clouds, or hybrid on-premises services. These services route end-user traffic to the closest available backend
 
 ### load balancing options
 
