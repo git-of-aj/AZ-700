@@ -17,6 +17,11 @@ Protect your applications from common web vulnerabilities such as SQL injection 
 
 ------
 ## Azure Front Door
+> MS has global reach so you can ensure that Front Door will route your client requests to the fastest and most available application backend
+
+Front Door works at Layer 7 (HTTP/HTTPS layer) using anycast protocol
+
+[MS LEARN](https://docs.microsoft.com/en-us/learn/modules/load-balancing-https-traffic-azure/5-design-configure-azure-front-door)
 
 [Azure products page -- Front Door](https://azure.microsoft.com/en-us/services/frontdoor/#overview)
 
