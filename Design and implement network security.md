@@ -38,3 +38,8 @@ use tools to simplify, centralize and enhance the network security management.
 [aka.ms/benchmarkdocs](https://docs.microsoft.com/en-us/security/benchmark/azure/)
 
 [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-network-security-monitoring/2-secure-your-virtual-networks-azure-portal)
+
+### Azure Firewall
+- you can easily configure outbound access.
+<br>Like only specific FQDN can be accessed 
+[Tutorial](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
