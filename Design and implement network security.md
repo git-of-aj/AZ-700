@@ -34,3 +34,5 @@ OWASP Top 10 vulnerabilities, and tune it to your application
 ✓ centralised management
 use tools to simplify, centralize and enhance the network security management. 
 
+### Azure Security benchmark
+[aka.ms/benchmarkdocs](https://docs.microsoft.com/en-us/security/benchmark/azure/)
