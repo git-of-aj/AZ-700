@@ -36,3 +36,5 @@ use tools to simplify, centralize and enhance the network security management.
 
 ### Azure Security benchmark
 [aka.ms/benchmarkdocs](https://docs.microsoft.com/en-us/security/benchmark/azure/)
+
+[MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-network-security-monitoring/2-secure-your-virtual-networks-azure-portal)
