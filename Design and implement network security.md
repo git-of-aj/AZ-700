@@ -39,7 +39,10 @@ use tools to simplify, centralize and enhance the network security management.
 
 [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-network-security-monitoring/2-secure-your-virtual-networks-azure-portal)
 
-### Azure Firewall
+## MS defender for cloud 
+[Cheat sheet by tutorials dojo](https://tutorialsdojo.com/azure-security-center/)
+
+## Azure Firewall
 - you can easily configure outbound access.
 <br>Like only specific FQDN can be accessed 
 [Tutorial](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
