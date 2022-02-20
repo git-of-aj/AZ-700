@@ -43,3 +43,8 @@ use tools to simplify, centralize and enhance the network security management.
 - you can easily configure outbound access.
 <br>Like only specific FQDN can be accessed 
 [Tutorial](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
+
+
+## AZURE WAF 
+> Malicious attacks such as SQL Injection, Cross Site Scripting (XSS), and other OWASP top 10 threats could cause service outage or data loss, and pose a big threat to web application owners. Web Application Firewall (WAF) protects your web applications from common web attacks, keeps your service available and helps you meet compliance requirements.
+Open Web Application Security Project,[OWASP](https://owasp.org/www-project-top-ten/)
