@@ -18,3 +18,6 @@ Put it behind Azure Standard Load Balancer so that consumers to your service can
 
 - implement a virtual network Service Endpoint for a service, such as Azure Storage or Azure SQL Database, Azure adds a route to a virtual network subnet for the service. The address prefixes in the route are the same address prefixes, or CIDR ranges, as those of the corresponding service tag.
 - Azure Service Endpoint provides devices connected to Azure VNet to access Azure platform services with their Private IP addresses without the need for a Public IP address on the VNet
+
+[DNS FOR PRIVATE ENDPOINT](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-dns)
+. A DNS forwarder is a Virtual Machine running on the Virtual Network linked to the Private DNS Zone that can proxy DNS queries coming from other Virtual Networks or from on-premises
