@@ -4,6 +4,10 @@ Many PaaS Resouces have public IP address. So, even though both your virtual net
 - Pvt link can be used with other peered vnet and on prem (connected via ExpressRoute or VPN)
 - Private Link resource can be deployed in a different region than the virtual network and Private Endpoint.
 
+## Private link workflow
+Put it behind Azure Standard Load Balancer so that consumers to your service can access it privately from their own VNets. Your customers can create a private endpoint inside their VNet and map it to this service
+[Learn more here](https://docs.microsoft.com/en-us/azure/private-link/private-link-service-overview)
+
 ## service endpoint
 > As the network engineer, you're planning to move sensitive engineering diagram files into Azure Storage. The files must only be accessible from computers inside the corporate network.
 
