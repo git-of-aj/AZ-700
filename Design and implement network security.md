@@ -39,21 +39,7 @@ use tools to simplify, centralize and enhance the network security management.
 
 [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/design-implement-network-security-monitoring/2-secure-your-virtual-networks-azure-portal)
 
-
-## MS defender for cloud 
-[Cheat sheet by tutorials dojo](https://tutorialsdojo.com/azure-security-center/)
-
-## Ddos
-
-[Cloudflare on DDOS](https://www.cloudflare.com/en-in/learning/ddos/what-is-a-ddos-attack/)
-
-## Service tags 
-
-A service tag represents a group of IP address prefixes from a given Azure service. Microsoft manages the address prefixes encompassed by the service tag and automatically updates the service tag as addresses change, minimizing the complexity of frequent updates to network security rules
-[List of azure Services with Service Tags](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview#available-service-tags)
-- **[SERVICE TAG OVERVIEW](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview)**
-
-## Azure Firewall
+### Azure Firewall
 - you can easily configure outbound access.
 <br>Like only specific FQDN can be accessed 
 [Tutorial](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal)
