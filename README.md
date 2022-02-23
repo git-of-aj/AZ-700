@@ -1,6 +1,7 @@
 # AZ-700
 
 A[zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit?WT.mc_id=thomasmaurer-blog-thmaure)
+[Free email signature](https://www.hubspot.com/email-signature-generator)
 
 [Praveen Singh Guide](https://parveensingh.com/az-700-study-guide/amp/)
 
