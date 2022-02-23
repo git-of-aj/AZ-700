@@ -38,6 +38,10 @@ In this diagram :
 
 - Private Endpoint IP address to the fully qualified domain name (FQDN) of the connection string.
 
-- configure your DNS settings for Private Endpoints
-✓ OS Host file --  like /etc/hosts in linux `really bad idea`
-✓ Private Zone DNS Records
+✓ How to configure your DNS settings for Private Endpoints
+
+1. OS Host file --  like /etc/hosts in linux `really bad idea`
+
+2. Private Zone DNS Records
+
+## Significance of `168.63.129.16`
