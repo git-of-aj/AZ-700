@@ -47,3 +47,10 @@ In this diagram :
 ## Significance of `168.63.129.16`
 
 without any custom DNS settings the client queries for the private endpoint IP address to the Azure-provided DNS service 168.63.129.16. Azure DNS will be responsible for DNS resolution of the private DNS zones
+
+
+## A K S NETWORKING
+
+
+
+- Calico network policy is a namespaced resource that applies to pods/containers/VMs in that namespace
