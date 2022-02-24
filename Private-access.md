@@ -50,7 +50,15 @@ without any custom DNS settings the client queries for the private endpoint IP a
 
 
 ## A K S NETWORKING
+![](https://raw.githubusercontent.com/Ananyojha/spare-images/main/synergetics/Other_good/Screenshot_20220224-125341.png)
 
+`Routes for kubenet`
+![](https://raw.githubusercontent.com/Ananyojha/spare-images/main/synergetics/Other_good/Screenshot_20220224-125639.png)
 
 
 - Calico network policy is a namespaced resource that applies to pods/containers/VMs in that namespace
+![](https://raw.githubusercontent.com/Ananyojha/spare-images/main/synergetics/Other_good/Screenshot_20220224-130354.png)
+
+`so for Azure CNI` :
+
+![](https://raw.githubusercontent.com/Ananyojha/spare-images/main/synergetics/Other_good/Screenshot_20220224-130103.png)
