@@ -14,6 +14,8 @@ Put it behind Azure Standard Load Balancer so that consumers to your service can
 
 **[Tutorial of Private link](https://docs.microsoft.com/en-us/azure/private-link/create-private-endpoint-portal)**
 
+> where Azure Private Link is not yet available, use Azure Virtual Network service endpoints. Azure Virtual Network service endpoints provide secure access to services via an optimized route over the Azure backbone network
+
 ## service endpoint
 > As the network engineer, you're planning to move sensitive engineering diagram files into Azure Storage. The files must only be accessible from computers inside the corporate network.
 
