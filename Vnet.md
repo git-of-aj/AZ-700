@@ -45,6 +45,9 @@ Static IP doesn't change like for AD domain  controllers DNS servers
 
 *Standard SKU uses STATIC IP ONLY*
 
+## different options in virtual network peering
+[Explore Microsoft docs](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering)
+
 ## AZURE DNS
 
 **Considerations** - 
