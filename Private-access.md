@@ -49,7 +49,10 @@ In this diagram :
 ## Significance of `168.63.129.16`
 - also known as wire server IP it is responsible for DNS resolution in virtual network
 - it is a public IP address on by Microsoft because private IP addresses can be used by any customer in Microsoft Azure
-- This special public IP address is owned by Microsoft and will not change. We recommend that you allow this IP address in any local (in the VM) firewall policies (outbound direction). The communication between this special IP address and the resources is safe because only the internal Azure platform can source a message from this IP address. 
+- This special public IP address is owned by Microsoft and will not change. We recommend that you allow this IP address in any local (in the VM) firewall policies (outbound direction). The communication between this special IP address and the resources is safe because only the internal Azure platform can source a message from this IP address
+
+> See the ss of DNS CONFIG OF AZURE VM
+![](https://raw.githubusercontent.com/Ananyojha/spare-images/2018b1f0ac5b989ec7fbe1ef17c9686cc610b5f8/Screenshot%20(250).png)
 
 without any custom DNS settings the client queries for the private endpoint IP address to the Azure-provided DNS service 168.63.129.16. Azure DNS will be responsible for DNS resolution of the private DNS zones
 
