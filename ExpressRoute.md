@@ -1,4 +1,4 @@
-## 
+# module 3 
 
 ## Why Azure Expressroute ?
 `excellent and cost-effective option for scenarios like periodic data migration, replication for business continuity, disaster recovery and other high-availability strategies.`
@@ -42,6 +42,10 @@ BFD is a feature that helps monitor the connectivity between your on-premises ne
 - allows your on-premises network and the Azure network to continuously send small test messages, like "Are you there?" and receive responses, like "Yes, I'm here!"
 - 
 > refer to MS Learn to know more 
+
+## fastpath
+- FastPath sends network traffic directly to virtual machines in the virtual network, bypassing the gateway.
+- https://learn.microsoft.com/en-us/azure/expressroute/about-fastpath
 
 [MS Learn (covers in detail about ExpressRoute)](https://docs.microsoft.com/en-us/learn/modules/design-implement-azure-expressroute/2-explore)
 
