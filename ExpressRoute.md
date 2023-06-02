@@ -19,6 +19,9 @@ one usecase could be run a corporate intranet application in Azure that authenti
 - Support for IPv6 workloads
 - Physical link encryption with MACsec
 
+## architecture 
+1. Azure ExpressRoute Circuit: Virtual pipe  => represents the physical connection between your on-premises network and the Azure network
+2. ExpressRoute Service Provider: Intermediary b/w MS AND YOU
 
 ## types
 - Ethernet Connections is like a secret tunnel that connects the two shops underground, and toys travel through it using a special train. Both methods ensure that the toys reach the other shop quickly and securely, but they use different means of transportation
@@ -34,7 +37,10 @@ Now, let's explore some of the ExpressRoute connectivity models in simpler terms
 
 In summary, ExpressRoute offers different connectivity models to make it easier for you to connect your network to Azure. It's like having special tunnels, shops, or telephone lines that allow you to communicate, share toys, and do business with Azure and other Azure customers securely and efficiently.
 
-
+## BFD
+BFD is a feature that helps monitor the connectivity between your on-premises network and the Azure network.
+- allows your on-premises network and the Azure network to continuously send small test messages, like "Are you there?" and receive responses, like "Yes, I'm here!"
+- 
 > refer to MS Learn to know more 
 
 [MS Learn (covers in detail about ExpressRoute)](https://docs.microsoft.com/en-us/learn/modules/design-implement-azure-expressroute/2-explore)
