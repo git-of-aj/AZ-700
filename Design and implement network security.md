@@ -12,6 +12,8 @@ Your security requirements might include:
 
 [Docs link](https://docs.microsoft.com/en-us/security/benchmark/azure/security-controls-v3-network-security)
 
+## Defender for DNS: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-dns-introduction
+
 ✓ Any workload that could incur higher risk for the organization should be in isolated virtual networks :- `use NSG --> NIC / SUBNET` + `ASG --> group VM` 
 > An application storing or processing highly sensitive data.
 - An external network-facing application accessible by the public or users outside of your organization.
