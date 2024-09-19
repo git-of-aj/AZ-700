@@ -1,5 +1,7 @@
 # AZ-700
 
+[NVA In VWan](https://learn.microsoft.com/en-us/azure/virtual-wan/how-to-nva-hub)
+
 A[zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit?WT.mc_id=thomasmaurer-blog-thmaure)
 
 [Free email signature](https://www.hubspot.com/email-signature-generator)
