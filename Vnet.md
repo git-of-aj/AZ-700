@@ -117,6 +117,7 @@ So check and then send --
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/introduction-to-azure-virtual-networks/media/forced-tunnel-ba8d30e6.png)
 
 ### NAT
+> create a vm, connect via private ip => remote public ip => show you cannot coneect internet without public ip => NAT needed !
 - ONLY FOR OUTBOUND CONNECTION
 - You define the NAT configuration for each subnet within a VNet to enable outbound connectivity by specifying which NAT gateway resource to use. After NAT is configured, all UDP and TCP outbound flows from any virtual machine instance will use NAT for internet connectivity. No further configuration is necessary, and you don’t need to create any user-defined routes. NAT takes precedence over other outbound scenarios
 
