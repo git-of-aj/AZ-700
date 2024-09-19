@@ -140,3 +140,8 @@ Azure Route Server enables network appliances to exchange route information with
 - uses dynamic routing --> BGP
 
 [TUTORIAL AZURE ROUTE SERVER](https://docs.microsoft.com/en-us/azure/route-server/quickstart-configure-route-server-portal)
+
+- The on-premises VPN device must be configured using 0.0.0.0/0 as traffic selectors.
+In the context of forced tunneling, configuring the on-premises VPN device to use 0.0.0.0/0 as traffic selectors means that all traffic from the remote client or site will be routed through the VPN tunnel to the on-premises network.
+- Using 0.0.0.0/0 as traffic selectors in an on-premises VPN configuration for forced tunneling ensures that all network traffic is directed through the secure VPN tunnel. This enhances security and control but may necessitate careful planning regarding performance and resource allocation.
+
