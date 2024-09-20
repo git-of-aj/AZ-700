@@ -2,6 +2,9 @@
 
 [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-virtual-networks/2-explore-azure-virtual-networks)
 
+> When you deploy a VPN gateway/Application gateway/Bastion/Firewall etc., gateway VMs, VMSS instances and specific services are deployed to their respective subnet. These gateway VMs/VMSS instances/services facilitating connectivity to the respective services are not exposed to the customer and are managed internally by Microsoft. And to avoid any conflict with these internal instances/services, these products impose a restriction on their subnet or requires a dedicated subnet.
+[MS Docs](https://learn.microsoft.com/en-us/answers/questions/1162009/dedicated-subnets)
+
 **Link local address**
 `Used for routing purpose` -- Link-local addresses are designed to be used for addressing on a single link for purposes such as automatic address configuration, neighbor discovery, or in the absence of routers. It also may be used to communicate with other nodes on the same link. A link-local address is automatically assigned.
 
