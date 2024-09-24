@@ -28,6 +28,7 @@ central management over a large number of enterprise segments or spokes (in a hu
 
 - Use network intrusion detection and intrusion prevention systems (IDS/IPS) to inspect the network and payload traffic to or from your workload. 
 
+- [Implementing Azure Firewall Between Two VNets: Step-by-Step Guide](https://medium.com/@subhampradhan966/implementing-azure-firewall-between-two-vnets-step-by-step-guide-4a3eac2a4ba9)
 
 ✓ 
 ` azure WAF ` : Use web application firewall (WAF) capabilities in Azure Application Gateway, Azure Front Door, and Azure Content Delivery Network (CDN) to protect your applications, services and APIs against application layer attacks at the edge of your network.
